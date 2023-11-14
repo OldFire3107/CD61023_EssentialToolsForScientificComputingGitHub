@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Demo CCDS}
+\author{Agni Purani}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+    This is a joke pdf. Don't take its content seriously.
+\end{abstract}
+
+\section{Introduction}
+
+Hello this is not my first \LaTeX\ document.
+This is a test.\\[12pt]
+A better test.
+
+This is a new paragraph.
+
+\section{Math}
+$$\frac{x}{y}$$
+
+$f(x) = x_1^2 + \sqrt{\sqrt{x_{2A}}} + \sqrt[5]{x_3}$
+
+\begin{equation}
+    \nabla x = \sin\theta+\log_2\partial\Theta + \cdots + \ldots
+\end{equation}
+
+\subsection{Complex math}
+$$\int_0^\infty e^{i \vec{k} \cdot \vec{x}}\mathrm{d}x$$
+
+$$\sum_{i=0}^N x_i^2$$
+
+\section{Tables}
+
+The table is shown below as Table \ref{tab:my_label}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+         A & 1  \\\hline
+         B & 2  \\\hline
+    \end{tabular}
+    \caption{Caption}
+    \label{tab:my_label}
+\end{table}
+
+\section{Figures}
+
+I have my classmates image saved here in this very pdf as a dedicated page (Figure \ref{fig:enter-label}).
+
+\section{Lists}
+
+I want the following:
+\begin{itemize}
+    \item Orange
+    \item Coke
+    \item Pizza
+    \item PhD
+\end{itemize}
+
+Recipe for you-stew:
+\begin{enumerate}
+    \item Boil water
+    \item Put your feet
+    \item Dip your body
+    \item Resist urge to get out
+    \item Enjoy you-stew!
+    \item[*] Clean the food before dipping!
+\end{enumerate}
+
+\section*{Appendix}
+
+The most cited HEP paper as of now is \cite{Maldacena:1997re}.
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=\textwidth]{Image.jpeg}
+    \caption{My classmate}
+    \label{fig:enter-label}
+\end{figure}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
